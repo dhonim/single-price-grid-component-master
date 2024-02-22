@@ -1,0 +1,38 @@
+:root{
+--Cyan: hsl(179, 62%, 43%);
+--BrightYellow: hsl(71, 73%, 54%);
+--LightGray: hsl(204, 43%, 93%);
+--GrayishBlue: hsl(218, 22%, 67%);
+--font:'Karla', sans-serif;
+}
+.bg-Cyan{
+    background-color: var(--Cyan);
+}
+.bg-LightGray{
+    background-color: var(--LightGray);
+}
+.bg-BrightYellow{
+    background-color: var(--BrightYellow);
+}
+.bg-lightgreen{
+    background-color: hsl(179, 63%, 54%);
+}
+/* text color */
+.text-BrightYellow{
+    color: var(--BrightYellow);
+}
+.text-Cyan{
+    color: var(--Cyan);
+}
+.text-GrayishBlue{
+    color: var(--GrayishBlue);
+}
+.font-title{
+    font-family: var(--font);
+    font-weight: 700;
+}
+.font-text{
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 16px;
+}
